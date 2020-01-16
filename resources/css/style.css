@@ -162,10 +162,18 @@ header {
 /* ------------------------------------------ */
 
 .mywork-section {
-    background-color: #191919;
     color: #fff;
     font-family: "Roboto Condensed";
     height: 100vh;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.wrap-section {
+    background-color: #191919;
+    padding-bottom: 5%;
+    /* To make the child div take the full height, we have to make the parent position absolute. */
+    position: absolute;
 }
 
 img {
